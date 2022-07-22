@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@200;400;500;600;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="block block--dark block--skewed_right block-showcase">
+      <header class="block__header">
+        <h2 class="block__heading">User friendly control panel</h2>
+      </header>
+      <div class="container grid grid--1-2">
+        <picture class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="../images/ipad.webp 1x, ../images/ipad@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="../images/ipad.png 1x, ../images/ipad@2x.png 2x"
+          />
+          <img src="../images/ipad.png" alt="ipad" />
+        </picture>
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="../images/sprite.svg#menu"></use>
+                </svg>
+              </div>
+              <div class="media__body showcase__heading">
+                <h3 class="media__title showcase__color">
+                  Easy Start And Managed Updates
+                </h3>
+                <p class="showcase__content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                  sequi?
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="../images/sprite.svg#growth"></use>
+                </svg>
+              </div>
+              <div class="media__body showcase__heading">
+                <h3 class="media__title showcase__color">
+                  Staging, GIT & WP-CLI
+                </h3>
+                <p class="showcase__content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                  sequi?
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="../images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body showcase__heading">
+                <h3 class="media__title showcase__color">
+                  Dynamic caching and more
+                </h3>
+                <p class="showcase__content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                  sequi?
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
